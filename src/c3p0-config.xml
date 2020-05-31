@@ -5,8 +5,8 @@
   <named-config name="javawebapp"> 
   
   	<property name="user">root</property>
-    <property name="password">root</property>
-    <property name="jdbcUrl">jdbc:mysql:///estore</property>
+    <property name="password">abc123</property>
+    <property name="jdbcUrl">jdbc:mysql://localhost:3306/estore?serverTimezone=UTC</property>
     <property name="driverClass">com.mysql.jdbc.Driver</property>
   
     <property name="acquireIncrement">2</property>
